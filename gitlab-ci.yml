@@ -21,7 +21,7 @@ deploy:
   stage: deploy
   script:
   - npm -g install cloudron-surfer
-  - surfer put --token $SURFER_KEY --server surf.my.demo.cloudron.io dist/* /
+  - surfer put --token $SURFER_KEY --server sta.my.demo.cloudron.io dist/* /
 
   only:
   - main
